@@ -1,0 +1,103 @@
+# 
+# FXGL - JavaFX 游戏库。MIT 许可证。
+# 版权所有 (c) AlmasB (almaslvl@gmail.com).
+# 查看 LICENSE 获取详细信息。
+#
+
+#
+# 对话框文本
+#
+
+dialog.exitGame = 退出游戏？
+dialog.yes = 是
+dialog.no = 否
+dialog.ok = 确定
+dialog.cancel = 取消
+
+#
+# 菜单文本
+#
+
+menu.language = 语言
+menu.continue = 继续
+menu.resume = 恢复
+menu.newGame = 新游戏
+menu.save = 保存
+menu.load = 读取
+menu.extra = 额外内容
+menu.online = 在线
+menu.video = 视频
+menu.audio = 音频
+menu.credits = 制作人员
+menu.options = 选项
+menu.logout = 退出登录
+menu.exit = 退出
+menu.mainMenu = 主菜单
+menu.restore = 恢复默认
+menu.gameplay = 游戏设置
+menu.controls = 控制设置
+menu.trophies = 成就
+menu.feedback = 反馈
+menu.back = 返回
+menu.delete = 删除
+menu.difficulty = 难度
+menu.playtime = 游戏时间
+menu.music.volume = 音乐音量
+menu.sound.volume = 音效音量
+menu.fullscreen = 全屏
+menu.fixRatio = 固定比例
+menu.settingsRestore = 设置将恢复为默认值
+menu.exitMainMenu = 返回主菜单？
+menu.logOut = 确定要退出登录？
+menu.unsavedProgress = 未保存的进度将会丢失！
+menu.chooseFeedback = 选择反馈方式
+menu.pressAnyKey = 按任意键
+menu.loadSave = 读取存档
+menu.loading = 加载中
+menu.loadingSaveFiles = 正在加载存档文件
+menu.loadingLast = 正在加载最后存档
+menu.deleteSave = 删除存档
+menu.deleting = 删除中
+menu.overwrite = 覆盖存档
+menu.enterSaveName = 输入存档名称
+menu.savingData = 正在保存数据
+
+#
+# 多人游戏文本
+#
+
+multiplayer.new = 新建
+multiplayer.select = 选择
+multiplayer.options = 多人游戏选项
+multiplayer.connect = 连接...
+multiplayer.connecting = 正在连接游戏
+multiplayer.host = 主机
+multiplayer.hosting = 正在托管游戏
+multiplayer.enterIp = 输入服务器IP
+
+#
+# 个人资料文本
+#
+
+profile.profile = 个人资料
+profile.selectOrCreate = 选择或创建个人资料
+profile.loadingProfile = 正在加载个人资料
+profile.loadingProfiles = 正在加载所有资料
+profile.deletingProfile = 正在删除个人资料
+profile.corrupted = 个人资料已损坏
+profile.new = 新建个人资料
+
+#
+# 开发相关文本
+#
+
+dev.screenshotSaved = 截图已保存
+dev.screenshotFailed = 截图失败
+
+#
+# 成就文本
+#
+
+achievement.achievement = 成就
+achievement.progress = 进度
+achievement.receive = 你获得了一个成就！
