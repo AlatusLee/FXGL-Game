@@ -1,10 +1,12 @@
 package com.alatus.game;
 
+import com.alatus.game.factory.ImageEntityFactory;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
+import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.SpawnData;
-
+import javafx.geometry.Rectangle2D;
 import static com.almasb.fxgl.dsl.FXGL.*;
 
 public class ImageGame extends GameApplication {
@@ -24,17 +26,18 @@ public class ImageGame extends GameApplication {
     @Override
     protected void initGame() {
         getGameWorld().addEntityFactory(new ImageEntityFactory());
+        spawn("Hero",new SpawnData(300,0));
         spawn("Nahida",new SpawnData(50,350));
         spawn("Car",new SpawnData(100,100));
         spawn("FatCar",new SpawnData(350,350));
         spawn("Boom",new SpawnData(300,100));
         spawn("Warrior",new SpawnData(300,300));
         Entity tank = spawn("Tank",new SpawnData(400,100));
-//        for (int i = 0; i < 5; i++) {
-//            spawn("Tank", FXGLMath.randomPoint(
-//                    new Rectangle2D(0,0,500,500)
-//            ));
-//        }
+        for (int i = 0; i < 5; i++) {
+            spawn("Tank", FXGLMath.randomPoint(
+                    new Rectangle2D(0,0,500,500)
+            ));
+        }
     }
 
     public static void main(String[] args) {

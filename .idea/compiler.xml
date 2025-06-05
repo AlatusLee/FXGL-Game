@@ -10,6 +10,7 @@
         <module name="ImageGame" />
         <module name="TestEntityBuilder" />
         <module name="ChatTest" />
+        <module name="WalkDemo" />
         <module name="TankWar" />
       </profile>
     </annotationProcessing>
