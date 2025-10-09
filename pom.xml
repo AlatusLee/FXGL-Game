@@ -15,6 +15,7 @@
         <module>EntityOther</module>
         <module>ImageGame</module>
         <module>WalkDemo</module>
+        <module>Archer</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
